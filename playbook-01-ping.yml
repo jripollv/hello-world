@@ -1,6 +1,5 @@
 ---
-- hosts: mis_slaves
-  remote_user: vagrant
-  tasks:
+- hosts: all
+    tasks:
     - name: test connection
       ping:
